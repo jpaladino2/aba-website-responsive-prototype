@@ -1,0 +1,59 @@
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+nav {
+	font-family: Arial, sans-serif;
+}
+
+header h1{
+	color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*white background*/
+.bg-1 {
+	background-color: #fff;
+}
+
+/*blue background*/
+.bg-2 {
+	background-color: #0079c2;
+}
+
+/*light gray background*/
+.bg-3 {
+	background-color: #E5E5E5;
+}
+
+/*dark gray background*/
+.bg-4 {
+	background-color: #444;
+}
+
+/*icon for global search*/
+.icon-search {
+	background-color: yellow;
+}
+
+/*global navigation*/
+ul#top-global-nav {
+	background-color: #000;
+}
+
+.upcoming-event {
+	color: #fff;
+}
+
+small.event-type {
+	font-style: italic;
+	font-size: 13px;
+}
+
+.upcoming-event time {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
