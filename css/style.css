@@ -38,11 +38,13 @@ header h1{
 	background-color: yellow;
 }
 
-/*global navigation*/
+/*global navigation START*/
 ul#top-global-nav {
 	background-color: #000;
 }
+/*global navigation END*/
 
+/*upcoming events START*/
 .upcoming-event {
 	color: #fff;
 }
@@ -57,3 +59,86 @@ small.event-type {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
+.upcoming-event {
+	border-radius: 3px;
+	float:left;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+a.upcoming-event:link, a.upcoming-event:visited {
+	background-color: #0079c2;
+	color: #fff;
+	text-decoration: none;
+}
+
+a.upcoming-event:hover, a.upcoming-event:active {
+	background-color: #444;
+	color: #fff;
+	text-decoration: underline;
+}
+
+.upcoming-event h3 {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+/*upcoming events END*/
+
+/*shared styles START*/
+footer.section-footer {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	float:left;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+footer.section-footer:hover {
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+footer.section-footer  a::after {
+    content: " >";
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+}
+/*shared styles END*/
+
+
+/* Media Queries */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* All styles above apply to extra small devices by default */
+/* All styles above apply to all devices unless specified otherwise below */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+footer.section-footer {
+	border: none;
+	text-align: right;
+}
+
+footer.section-footer:hover {
+	background-color: #fff;
+	cursor: default;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+
+
+
+
