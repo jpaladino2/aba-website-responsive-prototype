@@ -14,24 +14,16 @@ header h1{
 }
 
 /*white background*/
-.bg-1 {
-	background-color: #fff;
-}
+.bg-1-a {background-color: #fff;}
+
+/*light gray background on super small devices turns white */
+.bg-1-b {background-color: #fff;}
 
 /*blue background*/
-.bg-2 {
-	background-color: #0079c2;
-}
-
-/*light gray background*/
-.bg-3 {
-	background-color: #E5E5E5;
-}
+.bg-2 {background-color: #0079c2;}
 
 /*dark gray background*/
-.bg-4 {
-	background-color: #444;
-}
+.bg-3 {background-color: #444;}
 
 /*icon for global search*/
 .icon-search {
@@ -74,7 +66,7 @@ a.upcoming-event:link, a.upcoming-event:visited {
 	text-decoration: none;
 }
 
-a.upcoming-event:hover, a.upcoming-event:active {
+a.upcoming-event:hover, a.upcoming-event:active, a.upcoming-event:focus {
 	background-color: #444;
 	color: #fff;
 	text-decoration: underline;
@@ -85,6 +77,56 @@ a.upcoming-event:hover, a.upcoming-event:active {
 	line-height: 1.4em;
 }
 /*upcoming events END*/
+
+/*popular resources START*/
+a.popular-resource:link, a.popular-resource:visited {
+	background-color: #e5e5e5;
+	border-radius: 3px;
+	float: left;
+	margin-bottom: 10px;
+	min-height: 50px;
+	padding: 10px 10px 10px 60px;
+	width: 100%;
+	
+	display: table-cell;
+	vertical-align: middle;
+}
+a.popular-resource:hover, a.popular-resource:active, a.popular-resource:focus {
+	background-color: #444;
+	color: #fff;
+}
+
+a#popular-resource-1, a#popular-resource-2, a#popular-resource-3, a#popular-resource-4, a#popular-resource-5, a#popular-resource-6, a#popular-resource-7, a#popular-resource-8, a#popular-resource-9 {
+	background-repeat:no-repeat;
+	background-position: 5px;
+	background-size: 40px;
+}
+
+
+a#popular-resource-1 {background-image:url(../images/popular-resources-icon-1.png);}
+a#popular-resource-1:hover {background-image:url(../images/popular-resources-icon-1-hover.png);}
+a#popular-resource-2 {background-image:url(../images/popular-resources-icon-2.png);}
+a#popular-resource-2:hover {background-image:url(../images/popular-resources-icon-2-hover.png);}
+a#popular-resource-3 {background-image:url(../images/popular-resources-icon-3.png);}
+a#popular-resource-3:hover {background-image:url(../images/popular-resources-icon-3-hover.png);}
+a#popular-resource-4 {background-image:url(../images/popular-resources-icon-4.png);}
+a#popular-resource-4:hover {background-image:url(../images/popular-resources-icon-4-hover.png);}
+a#popular-resource-5 {background-image:url(../images/popular-resources-icon-5.png);}
+a#popular-resource-5:hover {background-image:url(../images/popular-resources-icon-5-hover.png);}
+a#popular-resource-6 {background-image:url(../images/popular-resources-icon-6.png);}
+a#popular-resource-6:hover {background-image:url(../images/popular-resources-icon-6-hover.png);}
+a#popular-resource-7 {background-image:url(../images/popular-resources-icon-7.png);}
+a#popular-resource-7:hover {background-image:url(../images/popular-resources-icon-7-hover.png);}
+a#popular-resource-8 {background-image:url(../images/popular-resources-icon-8.png);}
+a#popular-resource-8:hover {background-image:url(../images/popular-resources-icon-8-hover.png);}
+a#popular-resource-9 {background-image:url(../images/popular-resources-icon-9.png);}
+a#popular-resource-9:hover {background-image:url(../images/popular-resources-icon-9-hover.png);}
+
+/*popular resources END*/
+
+
+
+
 
 /*shared styles START*/
 footer.section-footer {
@@ -108,6 +150,15 @@ footer.section-footer  a::after {
 }
 /*shared styles END*/
 
+/* hide elements in DEV START */
+#section-1, #section-2, #section-3, footer {
+/*	display: none;*/
+}
+/* hide elements in DEV END */
+
+
+
+
 
 /* Media Queries */
 /* Extra small devices (phones, less than 768px) */
@@ -126,6 +177,21 @@ footer.section-footer:hover {
 	background-color: #fff;
 	cursor: default;
 }
+
+/*light gray background*/
+.bg-1-b {
+	background-color: #E5E5E5;
+}
+
+a.popular-resource:link, a.popular-resource:visited {
+	background-color: #fff;
+}
+
+a.popular-resource:hover, a.popular-resource:active, a.popular-resource:focus {
+	background-color: #444;
+	color: #fff;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -135,8 +201,21 @@ footer.section-footer:hover {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+	#popular-resources {
+		background-image:url(../images/popular-resources-backgr.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 455px;
+    		padding: 20px 0 0 60px;
+	
+	}
 }
+
+
+
+
+
 
 
 
