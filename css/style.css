@@ -90,6 +90,8 @@ a.popular-resource:link, a.popular-resource:visited {
 	
 	display: table-cell;
 	vertical-align: middle;
+	
+/*	transition: all 0.7s ease-out 0s;*/
 }
 a.popular-resource:hover, a.popular-resource:active, a.popular-resource:focus {
 	background-color: #444;
@@ -152,7 +154,7 @@ footer.section-footer  a::after {
 
 /* hide elements in DEV START */
 #section-1, #section-2, #section-3, footer {
-/*	display: none;*/
+	display: none;
 }
 /* hide elements in DEV END */
 
@@ -207,9 +209,83 @@ a.popular-resource:hover, a.popular-resource:active, a.popular-resource:focus {
 		background-position: center;
 		background-size: cover;
 		height: 455px;
-    		padding: 20px 0 0 60px;
+    	padding: 60px 20px;
+}
 	
-	}
+a.popular-resource:link, a.popular-resource:visited	{
+    display: table-cell;
+    height: 100px;
+	margin-bottom: 20px;
+    padding: 70px 10px 10px 10px!important;
+	text-align: center;
+    vertical-align: middle;
+	
+	
+
+}
+	
+a#popular-resource-1 {
+background:url(../images/popular-resources-icon-1.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+a#popular-resource-1:hover {
+background:url(../images/popular-resources-icon-1-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
+
+a#popular-resource-2 {
+background:url(../images/popular-resources-icon-2.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+a#popular-resource-2:hover {
+background:url(../images/popular-resources-icon-2-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
+
+a#popular-resource-3 {
+background:url(../images/popular-resources-icon-3.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+a#popular-resource-3:hover {
+background:url(../images/popular-resources-icon-3-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
+
+a#popular-resource-4 {
+background:url(../images/popular-resources-icon-4.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+a#popular-resource-4:hover {
+background:url(../images/popular-resources-icon-4-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
+
+a#popular-resource-5 {
+background:url(../images/popular-resources-icon-5.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+a#popular-resource-5:hover {
+background:url(../images/popular-resources-icon-5-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
+
+a#popular-resource-6 {
+background:url(../images/popular-resources-icon-6.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+a#popular-resource-6:hover {
+background:url(../images/popular-resources-icon-6-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
+
+a#popular-resource-7 {
+background:url(../images/popular-resources-icon-7.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+a#popular-resource-7:hover {
+background:url(../images/popular-resources-icon-7-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
+
+a#popular-resource-8 {
+background:url(../images/popular-resources-icon-8.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+a#popular-resource-8:hover {
+background:url(../images/popular-resources-icon-8-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
+
+a#popular-resource-9 {
+background:url(../images/popular-resources-icon-9.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+a#popular-resource-9:hover {
+background:url(../images/popular-resources-icon-9-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
+
+
+a#popular-resource-1, a#popular-resource-1:hover,
+a#popular-resource-2, a#popular-resource-2:hover,
+a#popular-resource-3, a#popular-resource-3:hover,
+a#popular-resource-4, a#popular-resource-4:hover,
+a#popular-resource-5, a#popular-resource-5:hover,
+a#popular-resource-6, a#popular-resource-6:hover,
+a#popular-resource-7, a#popular-resource-7:hover,
+a#popular-resource-8, a#popular-resource-8:hover,
+a#popular-resource-9, a#popular-resource-9:hover {
+	background-size: auto, auto;
+}
+
+
+
+	
+	
 }
 
 
