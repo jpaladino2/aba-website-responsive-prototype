@@ -1,35 +1,36 @@
 body {
 	font-family: 'Noto Sans', Verdana, Helvetica, Arial, sans-serif;
 }
-
 nav {
 	font-family: Arial, sans-serif;
 }
-
-header h1{
+header h1 {
 	color: #000;
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 10px;
+	text-transform: uppercase;
 }
-
 /*white background*/
-.bg-1-a {background-color: #fff;}
-
+.bg-1-a {
+	background-color: #fff;
+}
 /*light gray background on super small devices turns white */
-.bg-1-b {background-color: #fff;}
-
+.bg-1-b {
+	background-color: #fff;
+}
 /*blue background*/
-.bg-2 {background-color: #0079c2;}
-
+.bg-2 {
+	background-color: #0079c2;
+}
 /*dark gray background*/
-.bg-3 {background-color: #444;}
-
+.bg-3 {
+	background-color: #444;
+}
 /*icon for global search*/
 .icon-search {
 	background-color: yellow;
 }
-
 /*global navigation START*/
 ul#top-global-nav {
 	background-color: #000;
@@ -40,38 +41,32 @@ ul#top-global-nav {
 .upcoming-event {
 	color: #fff;
 }
-
 small.event-type {
 	font-style: italic;
 	font-size: 13px;
 }
-
 .upcoming-event time {
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
 }
-
 .upcoming-event {
 	border-radius: 3px;
-	float:left;
+	float: left;
 	margin-bottom: 10px;
 	padding: 10px;
 	width: 100%;
 }
-
 a.upcoming-event:link, a.upcoming-event:visited {
 	background-color: #0079c2;
 	color: #fff;
 	text-decoration: none;
 }
-
 a.upcoming-event:hover, a.upcoming-event:active, a.upcoming-event:focus {
 	background-color: #444;
 	color: #fff;
 	text-decoration: underline;
 }
-
 .upcoming-event h3 {
 	font-size: 1.4em;
 	line-height: 1.4em;
@@ -87,75 +82,129 @@ a.popular-resource:link, a.popular-resource:visited {
 	min-height: 50px;
 	padding: 10px 10px 10px 60px;
 	width: 100%;
-	
 	display: table-cell;
-	vertical-align: middle;
-	
-/*	transition: all 0.7s ease-out 0s;*/
+	vertical-align: middle;/*	transition: all 0.7s ease-out 0s;*/
 }
 a.popular-resource:hover, a.popular-resource:active, a.popular-resource:focus {
 	background-color: #444;
 	color: #fff;
 }
-
 a#popular-resource-1, a#popular-resource-2, a#popular-resource-3, a#popular-resource-4, a#popular-resource-5, a#popular-resource-6, a#popular-resource-7, a#popular-resource-8, a#popular-resource-9 {
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-position: 5px;
 	background-size: 40px;
 }
-
-
-a#popular-resource-1 {background-image:url(../images/popular-resources-icon-1.png);}
-a#popular-resource-1:hover {background-image:url(../images/popular-resources-icon-1-hover.png);}
-a#popular-resource-2 {background-image:url(../images/popular-resources-icon-2.png);}
-a#popular-resource-2:hover {background-image:url(../images/popular-resources-icon-2-hover.png);}
-a#popular-resource-3 {background-image:url(../images/popular-resources-icon-3.png);}
-a#popular-resource-3:hover {background-image:url(../images/popular-resources-icon-3-hover.png);}
-a#popular-resource-4 {background-image:url(../images/popular-resources-icon-4.png);}
-a#popular-resource-4:hover {background-image:url(../images/popular-resources-icon-4-hover.png);}
-a#popular-resource-5 {background-image:url(../images/popular-resources-icon-5.png);}
-a#popular-resource-5:hover {background-image:url(../images/popular-resources-icon-5-hover.png);}
-a#popular-resource-6 {background-image:url(../images/popular-resources-icon-6.png);}
-a#popular-resource-6:hover {background-image:url(../images/popular-resources-icon-6-hover.png);}
-a#popular-resource-7 {background-image:url(../images/popular-resources-icon-7.png);}
-a#popular-resource-7:hover {background-image:url(../images/popular-resources-icon-7-hover.png);}
-a#popular-resource-8 {background-image:url(../images/popular-resources-icon-8.png);}
-a#popular-resource-8:hover {background-image:url(../images/popular-resources-icon-8-hover.png);}
-a#popular-resource-9 {background-image:url(../images/popular-resources-icon-9.png);}
-a#popular-resource-9:hover {background-image:url(../images/popular-resources-icon-9-hover.png);}
-
+a#popular-resource-1 {
+	background-image: url(../images/popular-resources-icon-1.png);
+}
+a#popular-resource-1:hover {
+	background-image: url(../images/popular-resources-icon-1-hover.png);
+}
+a#popular-resource-2 {
+	background-image: url(../images/popular-resources-icon-2.png);
+}
+a#popular-resource-2:hover {
+	background-image: url(../images/popular-resources-icon-2-hover.png);
+}
+a#popular-resource-3 {
+	background-image: url(../images/popular-resources-icon-3.png);
+}
+a#popular-resource-3:hover {
+	background-image: url(../images/popular-resources-icon-3-hover.png);
+}
+a#popular-resource-4 {
+	background-image: url(../images/popular-resources-icon-4.png);
+}
+a#popular-resource-4:hover {
+	background-image: url(../images/popular-resources-icon-4-hover.png);
+}
+a#popular-resource-5 {
+	background-image: url(../images/popular-resources-icon-5.png);
+}
+a#popular-resource-5:hover {
+	background-image: url(../images/popular-resources-icon-5-hover.png);
+}
+a#popular-resource-6 {
+	background-image: url(../images/popular-resources-icon-6.png);
+}
+a#popular-resource-6:hover {
+	background-image: url(../images/popular-resources-icon-6-hover.png);
+}
+a#popular-resource-7 {
+	background-image: url(../images/popular-resources-icon-7.png);
+}
+a#popular-resource-7:hover {
+	background-image: url(../images/popular-resources-icon-7-hover.png);
+}
+a#popular-resource-8 {
+	background-image: url(../images/popular-resources-icon-8.png);
+}
+a#popular-resource-8:hover {
+	background-image: url(../images/popular-resources-icon-8-hover.png);
+}
+a#popular-resource-9 {
+	background-image: url(../images/popular-resources-icon-9.png);
+}
+a#popular-resource-9:hover {
+	background-image: url(../images/popular-resources-icon-9-hover.png);
+}
 /*popular resources END*/
 
 
-
+/*twitter START*/
+ul.feed {
+	list-style-type: none;
+	padding: 0;
+}
+ul.feed li {
+	border-bottom: 1px solid #ccc;
+	line-height: 16px;
+	padding: 5px 10px;
+}
+ul.feed li.last {
+	border-bottom: none;
+}
+a.twitter {
+	background: url("../images/twitter-component-icon.png") no-repeat;
+	line-height: 25px;
+	padding-bottom: 9px;
+	padding-left: 26px;
+}
+/*twitter END*/
 
 
 /*shared styles START*/
 footer.section-footer {
 	border: 1px solid #ccc;
 	border-radius: 3px;
-	float:left;
+	float: left;
 	margin-bottom: 10px;
 	padding: 10px;
+	text-align: center;
 	width: 100%;
 }
-
 footer.section-footer:hover {
 	background-color: #ccc;
 	cursor: pointer;
 }
-
-footer.section-footer  a::after {
-    content: " >";
-    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
-    font-size: 13px;
+footer.section-footer a::after {
+	content: " >";
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.component {
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	width: 100%;
 }
 /*shared styles END*/
 
 /* hide elements in DEV START */
-#section-1, #section-2, #section-3, footer {
+.dev-hide {
 	display: none;
 }
+
 /* hide elements in DEV END */
 
 
@@ -169,131 +218,108 @@ footer.section-footer  a::after {
 /* All styles above apply to all devices unless specified otherwise below */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 footer.section-footer {
 	border: none;
 	text-align: right;
 }
-
 footer.section-footer:hover {
 	background-color: #fff;
 	cursor: default;
 }
-
 /*light gray background*/
 .bg-1-b {
 	background-color: #E5E5E5;
 }
-
 a.popular-resource:link, a.popular-resource:visited {
 	background-color: #fff;
 }
-
 a.popular-resource:hover, a.popular-resource:active, a.popular-resource:focus {
 	background-color: #444;
 	color: #fff;
 }
-
+.component {
+	border-bottom: none;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-	#popular-resources {
-		background-image:url(../images/popular-resources-backgr.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		height: 455px;
-    	padding: 60px 20px;
+@media (min-width: 1200px) {
+#popular-resources {
+	background-image: url(../images/popular-resources-backgr.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 455px;
+	padding: 60px 20px;
 }
-	
-a.popular-resource:link, a.popular-resource:visited	{
-    display: table-cell;
-    height: 100px;
+a.popular-resource:link, a.popular-resource:visited {
+	display: table-cell;
+	height: 100px;
 	margin-bottom: 20px;
-    padding: 70px 10px 10px 10px!important;
+	padding: 70px 10px 10px 10px!important;
 	text-align: center;
-    vertical-align: middle;
-	
-	
-
+	vertical-align: middle;
 }
-	
 a#popular-resource-1 {
-background:url(../images/popular-resources-icon-1.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+	background: url(../images/popular-resources-icon-1.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;
+}
 a#popular-resource-1:hover {
-background:url(../images/popular-resources-icon-1-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
-
+	background: url(../images/popular-resources-icon-1-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;
+}
 a#popular-resource-2 {
-background:url(../images/popular-resources-icon-2.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+	background: url(../images/popular-resources-icon-2.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;
+}
 a#popular-resource-2:hover {
-background:url(../images/popular-resources-icon-2-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
-
+	background: url(../images/popular-resources-icon-2-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;
+}
 a#popular-resource-3 {
-background:url(../images/popular-resources-icon-3.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+	background: url(../images/popular-resources-icon-3.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;
+}
 a#popular-resource-3:hover {
-background:url(../images/popular-resources-icon-3-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
-
+	background: url(../images/popular-resources-icon-3-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;
+}
 a#popular-resource-4 {
-background:url(../images/popular-resources-icon-4.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+	background: url(../images/popular-resources-icon-4.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;
+}
 a#popular-resource-4:hover {
-background:url(../images/popular-resources-icon-4-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
-
+	background: url(../images/popular-resources-icon-4-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;
+}
 a#popular-resource-5 {
-background:url(../images/popular-resources-icon-5.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+	background: url(../images/popular-resources-icon-5.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;
+}
 a#popular-resource-5:hover {
-background:url(../images/popular-resources-icon-5-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
-
+	background: url(../images/popular-resources-icon-5-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;
+}
 a#popular-resource-6 {
-background:url(../images/popular-resources-icon-6.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+	background: url(../images/popular-resources-icon-6.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;
+}
 a#popular-resource-6:hover {
-background:url(../images/popular-resources-icon-6-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
-
+	background: url(../images/popular-resources-icon-6-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;
+}
 a#popular-resource-7 {
-background:url(../images/popular-resources-icon-7.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+	background: url(../images/popular-resources-icon-7.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;
+}
 a#popular-resource-7:hover {
-background:url(../images/popular-resources-icon-7-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
-
+	background: url(../images/popular-resources-icon-7-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;
+}
 a#popular-resource-8 {
-background:url(../images/popular-resources-icon-8.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+	background: url(../images/popular-resources-icon-8.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;
+}
 a#popular-resource-8:hover {
-background:url(../images/popular-resources-icon-8-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
-
+	background: url(../images/popular-resources-icon-8-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;
+}
 a#popular-resource-9 {
-background:url(../images/popular-resources-icon-9.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;}
+	background: url(../images/popular-resources-icon-9.png) center 10px no-repeat, url(../images/opacity-light.png) top left repeat;
+}
 a#popular-resource-9:hover {
-background:url(../images/popular-resources-icon-9-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;}
-
-
-a#popular-resource-1, a#popular-resource-1:hover,
-a#popular-resource-2, a#popular-resource-2:hover,
-a#popular-resource-3, a#popular-resource-3:hover,
-a#popular-resource-4, a#popular-resource-4:hover,
-a#popular-resource-5, a#popular-resource-5:hover,
-a#popular-resource-6, a#popular-resource-6:hover,
-a#popular-resource-7, a#popular-resource-7:hover,
-a#popular-resource-8, a#popular-resource-8:hover,
-a#popular-resource-9, a#popular-resource-9:hover {
+	background: url(../images/popular-resources-icon-9-hover.png) center 10px no-repeat, url(../images/opacity-dark.png) top left repeat;
+}
+a#popular-resource-1, a#popular-resource-1:hover, a#popular-resource-2, a#popular-resource-2:hover, a#popular-resource-3, a#popular-resource-3:hover, a#popular-resource-4, a#popular-resource-4:hover, a#popular-resource-5, a#popular-resource-5:hover, a#popular-resource-6, a#popular-resource-6:hover, a#popular-resource-7, a#popular-resource-7:hover, a#popular-resource-8, a#popular-resource-8:hover, a#popular-resource-9, a#popular-resource-9:hover {
 	background-size: auto, auto;
 }
-
-
-
-	
-	
 }
-
-
-
-
-
-
-
-
-
-
